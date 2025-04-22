@@ -59,15 +59,15 @@ export default function Home() {
                 you can set up and customize on your own.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-green-600 hover:bg-green-700">
+                {/* <Button size="lg" className="bg-green-600 hover:bg-green-700">
                   🚀 Join the Waitlist
-                </Button>
+                </Button> */}
               </div>
              
               <p className="text-sm text-slate-500">
                 Beta access is limited. Get early access, exclusive pricing, and full onboarding included.
               </p>
-              <div className="flex items-center gap-4 pt-4">
+              {/* <div className="flex items-center gap-4 pt-4">
                 <div className="flex -space-x-2">
                   {[1, 2, 3, 4, 5].map((i) => (
                     <div key={i} className="inline-block h-8 w-8 rounded-full border-2 border-white bg-slate-200" />
@@ -94,7 +94,7 @@ export default function Home() {
                   </div>
                   <span className="text-sm font-medium">5.0 (Early Access)</span>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="relative flex items-center justify-center">
             <FilloutForm />
@@ -105,7 +105,7 @@ export default function Home() {
         {/* Who It's For Section */}
         <section className="bg-slate-50 py-16">
           <div className="container">
-            <h2 className="mb-8 text-center text-3xl font-bold text-slate-900">Who It's For</h2>
+            <h2 className="mb-8 text-center text-3xl font-bold text-slate-900">Who We Work With</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
               <Card className="border-none shadow-md">
                 <CardContent className="p-6">
@@ -148,7 +148,7 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-4 text-3xl font-bold text-slate-900">Why We're Different</h2>
               <p className="mb-8 text-lg text-slate-600">
-                Forget everything you know about bloated, expensive "enterprise" systems. WasteFlow is:
+                Forget everything you know about bloated, expensive "enterprise" systems.
               </p>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -189,8 +189,7 @@ export default function Home() {
               </div>
             </div>
             <p className="mt-8 text-center text-lg">
-              You don't need a technical cofounder or a systems integrator. You just need WasteFlow.
-            </p>
+           You don't need to be technical. You just need waste flow            </p>
           </div>
         </section>
 
@@ -205,7 +204,7 @@ export default function Home() {
                   <div className="rounded-full bg-green-100 p-2">
                     <Calendar className="h-6 w-6 text-green-600" />
                   </div>
-                  <h3 className="text-xl font-bold">Set Up in Hours, Not Months</h3>
+                  <h3 className="text-xl font-bold">Set Up in Hours, Not Weeks.</h3>
                 </div>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
@@ -615,7 +614,7 @@ export default function Home() {
               WasteFlow is the modern command center for your waste operation. Designed for speed, built for growth, and
               simple enough to run without a developer or IT lead.
             </p>
-            <div className="mb-8 flex flex-wrap justify-center gap-8">
+            {/* <div className="mb-8 flex flex-wrap justify-center gap-8">
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5" />
                 <span>Easy setup</span>
@@ -632,7 +631,7 @@ export default function Home() {
                 <CheckCircle className="h-5 w-5" />
                 <span>Built for waste professionals</span>
               </div>
-            </div>
+            </div> */}
             <Button size="lg" className="bg-white text-green-800 hover:bg-slate-100">
               🚀 Join the Waitlist
             </Button>
