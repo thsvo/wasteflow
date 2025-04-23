@@ -29,10 +29,10 @@ export default function Home() {
               Features
             </Link>
             <Link href="#who-its-for" className="text-sm font-medium hover:text-green-600">
-              Who It's For
+              Built For
             </Link>
             <Link href="#why-different" className="text-sm font-medium hover:text-green-600">
-              Why Different
+              Why Switch?
             </Link>
             <Link href="#faq" className="text-sm font-medium hover:text-green-600">
               FAQ
@@ -53,7 +53,7 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 md:text-5xl lg:text-6xl">
                 Smarter Waste Operations Start Here
               </h1>
-              <p className="text-xl text-slate-600">No demos. No sales calls. No expensive implementation.</p>
+              <p className="text-xl text-slate-600">Live in hours,Not weeks. No onboarding drama</p>
               <p className="text-slate-600">
                 Join the waitlist for WasteFlow—the first all-in-one operations platform built for waste haulers that
                 you can set up and customize on your own.
@@ -105,7 +105,7 @@ export default function Home() {
         {/* Who It's For Section */}
         <section id="who-its-for" className="bg-slate-50  py-16">
           <div className="container">
-            <h2 className="mb-8 text-center text-3xl font-bold text-slate-900">Who We Work With</h2>
+            <h2 className="mb-8 text-center text-3xl font-bold text-slate-900">Built For</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
               <Card className="border-none shadow-md">
                 <CardContent className="p-6">
@@ -146,7 +146,7 @@ export default function Home() {
         <section id="why-different" className="py-16">
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="mb-4 text-3xl font-bold text-slate-900">Why We're Different</h2>
+              <h2 className="mb-4 text-3xl font-bold text-slate-900">Why Switch</h2>
               <p className="mb-8 text-lg text-slate-600">
                 Forget everything you know about bloated, expensive "enterprise" systems.
               </p>
@@ -188,8 +188,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <p className="mt-8 text-center text-lg">
-              You don't need to be technical. You just need waste flow            </p>
+
           </div>
         </section>
 
@@ -200,10 +199,13 @@ export default function Home() {
 
             <div className="mb-16 grid gap-8 md:grid-cols-2">
               <div>
+              <br />
+                  <br />
                 <div className="mb-4 flex items-center gap-2">
                   <div className="rounded-full bg-green-100 p-2">
                     <Calendar className="h-6 w-6 text-green-600" />
                   </div>
+                 
                   <h3 className="text-xl font-bold">Set Up in Hours, Not Weeks.</h3>
                 </div>
                 <ul className="space-y-3">
@@ -225,13 +227,14 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <div className="relative flex items-center justify-center rounded-lg bg-white shadow-lg">
+              <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[350px]">
                 <Image
-                  src="/company.svg"
+                  src="/steptodown.com854594.jpg"
                   alt="WasteFlow Setup Dashboard"
-                  width={500}
-                  height={300}
-                  className="rounded-lg"
+                  fill
+               className="rounded-lg shadow-lg"
+                  
+
                 />
               </div>
             </div>
@@ -243,7 +246,7 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <Truck className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">🚛 Route Optimization & Driver Tools</h3>
+                    <h3 className="font-bold"> Route Optimization & Driver Tools</h3>
                   </div>
                   <p className="mb-4 text-sm text-slate-600">Built to make your drivers more efficient and your routes more profitable.</p>
                   <ul className="space-y-2 text-sm">
@@ -277,7 +280,7 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <Package className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">📦 Bin & Asset Management</h3>
+                    <h3 className="font-bold"> Bin & Asset Management</h3>
                   </div>
                   <p className="mb-4 text-sm text-slate-600">Finally get a handle on your bins like the valuable assets they are.</p>
                   <ul className="space-y-2 text-sm">
@@ -311,7 +314,7 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <FileText className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">💸 Smart Billing & Accounts Receivable</h3>
+                    <h3 className="font-bold"> Smart Billing & Accounts Receivable</h3>
                   </div>
                   <p className="mb-4 text-sm text-slate-600">Your back office just got a whole lot smarter—and faster.</p>
                   <ul className="space-y-2 text-sm">
@@ -345,7 +348,7 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <Users className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">📞 Customer Portal & Communication</h3>
+                    <h3 className="font-bold"> Customer Portal & Communication</h3>
                   </div>
                   <p className="mb-4 text-sm text-slate-600">Let customers handle more—without calling your office.</p>
                   <ul className="space-y-2 text-sm">
@@ -379,7 +382,7 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <Calendar className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">🧭 Dispatch & Notifications Center</h3>
+                    <h3 className="font-bold"> Dispatch & Notifications Center</h3>
                   </div>
                   <p className="mb-4 text-sm text-slate-600">Power tools for your dispatchers, so nothing falls through the cracks.</p>
                   <ul className="space-y-2 text-sm">
@@ -413,7 +416,7 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <BarChart className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">📊 Reporting & Operations Dashboards</h3>
+                    <h3 className="font-bold"> Reporting & Operations Dashboards</h3>
                   </div>
                   <p className="mb-4 text-sm text-slate-600">See your business clearly. Act on what matters.</p>
                   <ul className="space-y-2 text-sm">
@@ -478,7 +481,7 @@ export default function Home() {
               <div className="relative flex items-center justify-center">
                 <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[350px]">
                   <Image
-                    src="/companywaste.jpg"
+                    src="/garbage.jpg"
                     alt="Streamlined Waste Operations"
                     fill
                     className="object-cover"
@@ -538,7 +541,7 @@ export default function Home() {
               <div className="relative flex items-center justify-center">
                 <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[350px]">
                   <Image
-                    src="/company2.jpg"
+                    src="/garbage1.jpg"
                     alt="Cost Reduction"
                     fill
                     className="object-cover"
@@ -553,8 +556,8 @@ export default function Home() {
         <section className="py-16">
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="mb-4 text-3xl font-bold text-slate-900">What Beta Users Get</h2>
-              <p className="mb-8 text-lg text-slate-600">Be one of the first 10 beta partners and you'll receive:</p>
+              <h2 className="mb-4 text-3xl font-bold text-slate-900">Join The Beta</h2>
+              <p className="mb-8 text-lg text-slate-600">Be one of the first 10 beta partners and you'll receive</p>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <Card className="border-none shadow-md">
@@ -589,15 +592,13 @@ export default function Home() {
               {/* <Button size="lg" className="bg-green-600 hover:bg-green-700">
                 🚀 Join the Waitlist
               </Button> */}
-              <p className="mt-4 text-slate-600">
-                Sign up now. Launch before the rest of the market even hears about us.
-              </p>
+
             </div>
           </div>
         </section>
 
         {/* Pricing Highlights */}
-        <section className="bg-slate-50 py-12">
+        {/* <section className="bg-slate-50 py-12">
           <div className="container">
             <div className="flex flex-wrap justify-center gap-8 md:gap-16">
               <div className="flex items-center gap-3">
@@ -620,7 +621,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* FAQ Section */}
         <section id="faq" className="py-16">
@@ -629,43 +630,52 @@ export default function Home() {
             <div className="mx-auto max-w-3xl space-y-4">
               <div className="rounded-lg border p-4">
                 <div className="flex cursor-pointer items-center justify-between">
-                  <h3 className="text-lg font-medium">Do I need to talk to sales or schedule a demo?</h3>
+                  <h3 className="text-lg font-medium">Who is WasteFlow built for?</h3>
                   <ChevronDown className="h-5 w-5" />
                 </div>
                 <div className="mt-2">
-                  <p className="text-slate-600">No. You can set up WasteFlow entirely on your own.</p>
-                </div>
-              </div>
-              <div className="rounded-lg border p-4">
-                <div className="flex cursor-pointer items-center justify-between">
-                  <h3 className="text-lg font-medium">Can I go live without a tech team?</h3>
-                  <ChevronDown className="h-5 w-5" />
-                </div>
-                <div className="mt-2">
-                  <p className="text-slate-600">
-                    Absolutely. We built WasteFlow for non-technical teams. If you can use QuickBooks, you can use this.
+                  <p className="text-slate-600">WasteFlow is made for small to mid-sized haulers who are ready to move beyond spreadsheets, clunky software, and disconnected tools. Whether you're running roll-off, residential, or commercial routes—if you're managing 2 to 100+ trucks, this is built for you.
+
                   </p>
                 </div>
               </div>
               <div className="rounded-lg border p-4">
                 <div className="flex cursor-pointer items-center justify-between">
-                  <h3 className="text-lg font-medium">What about implementation costs?</h3>
+                  <h3 className="text-lg font-medium">How long does it take to get started?
+                  </h3>
                   <ChevronDown className="h-5 w-5" />
                 </div>
                 <div className="mt-2">
                   <p className="text-slate-600">
-                    There aren't any. Setup is included, and most teams are fully onboarded in under 72 hours.
+                    Most teams are live in under 72 hours. WasteFlow is plug-and-play—no developers, no IT team, and no complex onboarding required.
+
+
                   </p>
                 </div>
               </div>
               <div className="rounded-lg border p-4">
                 <div className="flex cursor-pointer items-center justify-between">
-                  <h3 className="text-lg font-medium">Is it customizable?</h3>
+                  <h3 className="text-lg font-medium">Do you offer help with setup?
+                  </h3>
                   <ChevronDown className="h-5 w-5" />
                 </div>
                 <div className="mt-2">
                   <p className="text-slate-600">
-                    Yes. From pricing logic to customer notifications and portal branding—you control it.
+                    Yes. Every beta user gets full white-glove onboarding and support. We’ll help import routes, customer data, and billing rules—so your team can hit the ground running.
+
+
+                  </p>
+                </div>
+              </div>
+              <div className="rounded-lg border p-4">
+                <div className="flex cursor-pointer items-center justify-between">
+                  <h3 className="text-lg font-medium">Can we start simple and expand later?
+                  </h3>
+                  <ChevronDown className="h-5 w-5" />
+                </div>
+                <div className="mt-2">
+                  <p className="text-slate-600">
+                    Absolutely. You can start with core tools—like billing or routing—and add more modules like driver apps, customer portals, or asset tracking as your team scales. WasteFlow is built to grow with you.
                   </p>
                 </div>
               </div>
@@ -676,7 +686,7 @@ export default function Home() {
         {/* Final CTA */}
         <section className="bg-green-800 py-16 text-white">
           <div className="container text-center">
-            <h2 className="mb-4 text-3xl font-bold">Build Smarter. Bill Faster. Stress Less.</h2>
+            <h2 className="mb-4 text-3xl font-bold">Smarter Hauling Starts Here</h2>
             <p className="mx-auto mb-8 max-w-2xl text-lg">
               WasteFlow is the modern command center for your waste operation. Designed for speed, built for growth, and
               simple enough to run without a developer or IT lead.
@@ -702,7 +712,7 @@ export default function Home() {
             {/* <Button size="lg" className="bg-white text-green-800 hover:bg-slate-100">
               🚀 Join the Waitlist
             </Button> */}
-            <p className="mt-4 text-sm">Let us know you're interested. We'll invite you when your slot opens.</p>
+            {/* <p className="mt-4 text-sm">Let us know you're interested. We'll invite you when your slot opens.</p> */}
           </div>
         </section>
 
@@ -800,9 +810,9 @@ export default function Home() {
             <p className="mx-auto mb-8 max-w-2xl text-lg text-slate-600">
               Join the waitlist today and be among the first to transform your waste management operations.
             </p>
-            {/* <Button size="lg" className="bg-green-600 hover:bg-green-700">
-              🚀 Join the Waitlist
-            </Button> */}
+            <div className="relative flex items-center justify-center">
+              <FilloutForm />
+            </div>
           </div>
         </section>
       </main>
