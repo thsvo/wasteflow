@@ -51,7 +51,7 @@ export default function Home() {
                 <span>Waste Management Software That Actually Works for You</span>
               </div>
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 md:text-5xl lg:text-6xl">
-                Smarter Waste Operations Start Here.
+                Smarter Waste Operations Start Here
               </h1>
               <p className="text-xl text-slate-600">No demos. No sales calls. No expensive implementation.</p>
               <p className="text-slate-600">
@@ -243,8 +243,9 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <Truck className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">Route Optimization & Driver Tools</h3>
+                    <h3 className="font-bold">🚛 Route Optimization & Driver Tools</h3>
                   </div>
+                  <p className="mb-4 text-sm text-slate-600">Built to make your drivers more efficient and your routes more profitable.</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
@@ -252,15 +253,19 @@ export default function Home() {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Real-time vehicle tracking</span>
+                      <span>Real-time vehicle tracking with map view</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Driver mobile app with stop-by-stop logging</span>
+                      <span>Smart stop-skipping (auto-detect no bins/empty lots)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>GPS photo proof of service</span>
+                      <span>Overflow detection (manual or AI photo tagging)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Driver alerts when customer status changes</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -272,20 +277,29 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <Package className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">Bin & Asset Tracking</h3>
+                    <h3 className="font-bold">📦 Bin & Asset Management</h3>
                   </div>
+                  <p className="mb-4 text-sm text-slate-600">Finally get a handle on your bins like the valuable assets they are.</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Assign, locate, and monitor bin inventory</span>
+                      <span>Assign, locate, and monitor active bins</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>QR/RFID support (optional)</span>
+                      <span>QR, barcode, or RFID support (optional)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Track damage, swaps, returns</span>
+                      <span>Damage logging and service history</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Swap tracking and customer reassignment</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Bin inventory dashboard by type and size</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -297,24 +311,29 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <FileText className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">Smart Billing</h3>
+                    <h3 className="font-bold">💸 Smart Billing & Accounts Receivable</h3>
                   </div>
+                  <p className="mb-4 text-sm text-slate-600">Your back office just got a whole lot smarter—and faster.</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Automatic invoice generation</span>
+                      <span>Automatic invoice generation post-service</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Per bin/service/weight/overflow pricing</span>
+                      <span>Per-bin, per-weight, or per-service billing</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Instant integration with QuickBooks & Stripe</span>
+                      <span>QuickBooks & Stripe integration</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Late payment reminders + autopay options</span>
+                      <span>Autopay options + late payment reminders</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>AR tracking and collection rules</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -326,20 +345,63 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <Users className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">Customer Portal</h3>
+                    <h3 className="font-bold">📞 Customer Portal & Communication</h3>
                   </div>
+                  <p className="mb-4 text-sm text-slate-600">Let customers handle more—without calling your office.</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>White-labeled self-service page</span>
+                      <span>White-labeled self-service portal</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Online payments, pickup requests, account updates</span>
+                      <span>Request pickups and bin swaps</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>SMS/email alerts and service confirmations</span>
+                      <span>View/download invoices and history</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Make payments and manage autopay</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>In-application chat support</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-md">
+                <CardContent className="p-6">
+                  <div className="mb-4 flex items-center gap-2">
+                    <div className="rounded-full bg-green-100 p-2">
+                      <Calendar className="h-5 w-5 text-green-600" />
+                    </div>
+                    <h3 className="font-bold">🧭 Dispatch & Notifications Center</h3>
+                  </div>
+                  <p className="mb-4 text-sm text-slate-600">Power tools for your dispatchers, so nothing falls through the cracks.</p>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Work order creation and assignment</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Real-time service status tracking</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Custom alerts for service exceptions</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Visual schedule with route density map</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>Dispatcher-to-driver communication</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -351,24 +413,29 @@ export default function Home() {
                     <div className="rounded-full bg-green-100 p-2">
                       <BarChart className="h-5 w-5 text-green-600" />
                     </div>
-                    <h3 className="font-bold">Reports That Matter</h3>
+                    <h3 className="font-bold">📊 Reporting & Operations Dashboards</h3>
                   </div>
+                  <p className="mb-4 text-sm text-slate-600">See your business clearly. Act on what matters.</p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Profitability by route</span>
+                      <span>Profitability reports by route and type</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Missed pickup dashboard</span>
+                      <span>Driver performance dashboards</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Driver performance reports</span>
+                      <span>Missed pickup logs with details</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
-                      <span>Asset usage + billing history</span>
+                      <span>Bin utilization and service metrics</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-green-600" />
+                      <span>AR aging and payment tracking</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -411,7 +478,7 @@ export default function Home() {
               <div className="relative flex items-center justify-center">
                 <div className="relative h-[300px] w-full overflow-hidden rounded-lg md:h-[350px]">
                   <Image
-                    src="/company1.jpg"
+                    src="/companywaste.jpg"
                     alt="Streamlined Waste Operations"
                     fill
                     className="object-cover"
@@ -519,9 +586,9 @@ export default function Home() {
               </Card>
             </div>
             <div className="mt-12 text-center">
-              <Button size="lg" className="bg-green-600 hover:bg-green-700">
+              {/* <Button size="lg" className="bg-green-600 hover:bg-green-700">
                 🚀 Join the Waitlist
-              </Button>
+              </Button> */}
               <p className="mt-4 text-slate-600">
                 Sign up now. Launch before the rest of the market even hears about us.
               </p>
@@ -632,9 +699,9 @@ export default function Home() {
                 <span>Built for waste professionals</span>
               </div>
             </div> */}
-            <Button size="lg" className="bg-white text-green-800 hover:bg-slate-100">
+            {/* <Button size="lg" className="bg-white text-green-800 hover:bg-slate-100">
               🚀 Join the Waitlist
-            </Button>
+            </Button> */}
             <p className="mt-4 text-sm">Let us know you're interested. We'll invite you when your slot opens.</p>
           </div>
         </section>
@@ -733,9 +800,9 @@ export default function Home() {
             <p className="mx-auto mb-8 max-w-2xl text-lg text-slate-600">
               Join the waitlist today and be among the first to transform your waste management operations.
             </p>
-            <Button size="lg" className="bg-green-600 hover:bg-green-700">
+            {/* <Button size="lg" className="bg-green-600 hover:bg-green-700">
               🚀 Join the Waitlist
-            </Button>
+            </Button> */}
           </div>
         </section>
       </main>
