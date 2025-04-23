@@ -11,34 +11,34 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-white">
-        <div className="container flex h-16 items-center justify-between">
-        <Image 
-              src="/logo.png"
-              alt="WasteFlow Logo"
-              width={120}
-              height={32}
-              className="h-20 w-auto pt-1"
-              priority
-            />
+        <div className="container flex h-16 items-center ">
+          <Image
+            src="/logo.png"
+            alt="WasteFlow Logo"
+            width={120}
+            height={32}
+            className="h-20 w-auto pt-1"
+            priority
+          />
           <div className="flex items-center gap-2">
-          
-           
+
+
           </div>
-          <nav className="hidden md:flex items-center gap-6">
-            <Link href="#" className="text-sm font-medium hover:text-green-600">
+          <nav className="hidden md:flex items-center gap-6 pl-96">
+            <Link href="#features" className="text-sm font-medium hover:text-green-600">
               Features
             </Link>
-            <Link href="#" className="text-sm font-medium hover:text-green-600">
+            <Link href="#who-its-for" className="text-sm font-medium hover:text-green-600">
               Who It's For
             </Link>
-            <Link href="#" className="text-sm font-medium hover:text-green-600">
+            <Link href="#why-different" className="text-sm font-medium hover:text-green-600">
               Why Different
             </Link>
-            <Link href="#" className="text-sm font-medium hover:text-green-600">
+            <Link href="#faq" className="text-sm font-medium hover:text-green-600">
               FAQ
             </Link>
           </nav>
-          <Button className="bg-green-600 hover:bg-green-700">Join Waitlist</Button>
+          {/* <Button className="bg-green-600 hover:bg-green-700">Join Waitlist</Button> */}
         </div>
       </header>
 
@@ -63,7 +63,7 @@ export default function Home() {
                   🚀 Join the Waitlist
                 </Button> */}
               </div>
-             
+
               <p className="text-sm text-slate-500">
                 Beta access is limited. Get early access, exclusive pricing, and full onboarding included.
               </p>
@@ -97,13 +97,13 @@ export default function Home() {
               </div> */}
             </div>
             <div className="relative flex items-center justify-center">
-            <FilloutForm />
+              <FilloutForm />
             </div>
           </div>
         </section>
 
         {/* Who It's For Section */}
-        <section className="bg-slate-50 py-16">
+        <section id="who-its-for" className="bg-slate-50  py-16">
           <div className="container">
             <h2 className="mb-8 text-center text-3xl font-bold text-slate-900">Who We Work With</h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -143,7 +143,7 @@ export default function Home() {
         </section>
 
         {/* Why We're Different */}
-        <section className="py-16">
+        <section id="why-different" className="py-16">
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-4 text-3xl font-bold text-slate-900">Why We're Different</h2>
@@ -189,12 +189,12 @@ export default function Home() {
               </div>
             </div>
             <p className="mt-8 text-center text-lg">
-           You don't need to be technical. You just need waste flow            </p>
+              You don't need to be technical. You just need waste flow            </p>
           </div>
         </section>
 
         {/* What It Can Do */}
-        <section className="bg-slate-50 py-16">
+        <section id="features" className="bg-slate-50 py-16">
           <div className="container">
             <h2 className="mb-12 text-center text-3xl font-bold text-slate-900">What It Can Do</h2>
 
@@ -623,7 +623,7 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16">
+        <section id="faq" className="py-16">
           <div className="container">
             <h2 className="mb-8 text-center text-3xl font-bold text-slate-900">FAQ</h2>
             <div className="mx-auto max-w-3xl space-y-4">
