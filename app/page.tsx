@@ -199,13 +199,13 @@ export default function Home() {
 
             <div className="mb-16 grid gap-8 md:grid-cols-2">
               <div>
-              <br />
-                  <br />
+                <br />
+                <br />
                 <div className="mb-4 flex items-center gap-2">
                   <div className="rounded-full bg-green-100 p-2">
                     <Calendar className="h-6 w-6 text-green-600" />
                   </div>
-                 
+
                   <h3 className="text-xl font-bold">Set Up in Hours, Not Weeks.</h3>
                 </div>
                 <ul className="space-y-3">
@@ -232,8 +232,8 @@ export default function Home() {
                   src="/steptodown.com854594.jpg"
                   alt="WasteFlow Setup Dashboard"
                   fill
-               className="rounded-lg shadow-lg"
-                  
+                  className="rounded-lg shadow-lg"
+
 
                 />
               </div>
@@ -932,7 +932,7 @@ export default function Home() {
             </div>
           </div> */}
           <div className="mt-12 border-t border-slate-800 pt-8 text-center text-sm text-slate-400">
-            <p>© 2025 WasteFlow. All rights reserved.</p>
+            <div className="flex justify-between">   <p>Hello@Trywasteflow.com</p>   <p>© 2025 WasteFlow. All rights reserved.</p></div>
           </div>
         </div>
       </footer>
