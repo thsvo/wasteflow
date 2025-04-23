@@ -11,15 +11,17 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-white">
-        <div className="container flex h-16 items-center ">
-          <Image
-            src="/logo.png"
-            alt="WasteFlow Logo"
-            width={120}
-            height={32}
-            className="h-20 w-auto pt-1"
-            priority
-          />
+        <div className="container flex h-16 items-center justify-between md:justify-start">
+          <div className="w-full flex justify-center md:justify-start md:w-auto">
+            <Image
+              src="/logo.png"
+              alt="WasteFlow Logo"
+              width={120}
+              height={32}
+              className="h-20 w-auto pt-1"
+              priority
+            />
+          </div>
           <div className="flex items-center gap-2">
 
 
@@ -517,7 +519,7 @@ export default function Home() {
           <div className="container">
             <div className="grid gap-8 md:grid-cols-2">
               <div className="flex flex-col justify-center">
-                <h2 className="mb-4 text-3xl font-bold text-slate-900">
+                <h2 className="mb-4 md:text-3xl text-2xl  font-bold text-slate-900">
                   Reduce costs & downtime while improving asset utilization
                 </h2>
                 <p className="mb-6 text-slate-600">
@@ -557,12 +559,11 @@ export default function Home() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="mb-4 text-3xl font-bold text-slate-900">Join The Beta</h2>
-              <p className="mb-8 text-lg text-slate-600">Be one of the first 10 beta partners and you'll receive</p>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <Card className="border-none shadow-md">
-                <CardContent className="p-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
+                <CardContent className="p-6 text-center">
+                  <div className="mb-4 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                     <span className="text-xl font-bold text-green-600">$</span>
                   </div>
                   <h3 className="mb-2 text-lg font-semibold">Lifetime discounted pricing</h3>
@@ -570,8 +571,8 @@ export default function Home() {
                 </CardContent>
               </Card>
               <Card className="border-none shadow-md">
-                <CardContent className="p-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
+                <CardContent className="p-6 text-center">
+                  <div className="mb-4 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                     <span className="text-xl font-bold text-green-600">🔍</span>
                   </div>
                   <h3 className="mb-2 text-lg font-semibold">Priority feature feedback</h3>
@@ -579,8 +580,8 @@ export default function Home() {
                 </CardContent>
               </Card>
               <Card className="border-none shadow-md">
-                <CardContent className="p-6">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
+                <CardContent className="p-6 text-center">
+                  <div className="mb-4 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                     <span className="text-xl font-bold text-green-600">👋</span>
                   </div>
                   <h3 className="mb-2 text-lg font-semibold">Concierge onboarding</h3>
