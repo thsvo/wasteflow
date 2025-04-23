@@ -9,7 +9,12 @@ export const metadata = {
   title: "Smarter waste management for haulers and operators",
   description:
     "Join the waitlist for WasteFlow—the first all-in-one operations platform built for waste haulers that you can set up and customize on your own.",
-   
+  icons: {
+    icon: [
+      { url: '/logo.png' },
+     
+    ],
+  },
 }
 
 export default function RootLayout({
