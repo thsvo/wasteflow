@@ -55,7 +55,7 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-slate-900 md:text-5xl lg:text-6xl">
                 Smarter Waste Operations Start Here
               </h1>
-              <p className="text-xl text-slate-600">Live in hours,Not weeks. No onboarding drama</p>
+              <p className="text-xl text-slate-600">Live in hours, Not weeks. No onboarding drama</p>
               <p className="text-slate-600">
                 Join the waitlist for WasteFlow—the first all-in-one operations platform built for waste haulers that
                 you can set up and customize on your own.
